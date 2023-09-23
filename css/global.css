@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 90%;
+    --color-destaque: #4F196C; 
+    --background-color: #0B0010;
+    --backgound-sidebar: #200536;
+}
+
+html.body, #root {
+    height: 100vh;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea {
+    font: 600 1.2rem 'Poppins'
+}
+
+.container {
+    width: 90%;
+    max-width: 768px;
+}
+

@@ -1,0 +1,337 @@
+.home-container{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.home-main{
+    background-image: url(../assets/backgound-home-mobile.png);
+    background-size: cover;
+
+    text-align: center;
+    
+
+    padding: 3.1rem;
+    transition: transform 15s;
+}
+
+.home-main header {
+    padding: 1rem;
+    display: flex;
+    justify-content: right;
+
+    transition: transform 15s;
+}
+
+.home-main header  button { 
+    
+    background: var(--color-destaque);
+    border: none;
+    width: 6.25rem;
+    height: 2.1rem;
+
+    color: #ffffff;
+
+    cursor: pointer;
+    border-radius: 3.1rem; 
+}
+
+.home-main  header  button:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px  10px #1f1f1f;
+}
+
+.home-main > img {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    width: 15.25rem;
+    height: auto;
+    
+}
+
+.home-main > h1 {
+
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+
+    font: 600 2rem 'Poppins';
+}
+
+.home-main > button {
+    margin-bottom: 3rem;
+    background: var(--color-destaque);
+    border: none;
+    width: 10.5rem;
+    height: 2.3rem;
+
+    cursor: pointer;
+
+    color: #ffffff;
+
+    border-radius: 50px;
+}
+
+.home-main > button:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px  10px #1f1f1f;
+}
+
+
+.home-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-about > h2{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    text-align: center;
+
+    font: 600 1.2rem 'Poppins';
+}
+
+.home-about .emp {
+    color: var(--color-destaque);
+    font-weight: bold;
+}
+
+.home-about > img {
+    width: 28rem;
+
+    margin-bottom: 2rem;
+}
+
+.home-about > h3 {
+    color: var(--color-destaque);
+    font: 600 1.5rem 'Poppins';
+
+    margin-bottom: 2rem;
+}
+
+.home-about > p {
+    text-align: center;
+
+    font: 400 1.2rem 'Poppins';
+
+    padding: 2rem 1.4rem;
+
+}
+
+.home-plan {
+    background-image: url(../assets/img-plans.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-plan > h2 {
+    text-align: center;
+    font: 600 2.5rem 'Poppins';
+    padding: 1.5rem 0;
+}
+
+.home-plan .home-plan-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* width: 25rem; */
+}
+
+.home-plan .home-plan-cards .cards {
+    background-color: #4f196cb2;
+    margin: .4rem;
+    max-width: 10.8rem;
+    min-width: 10rem;
+    min-height: 17rem;
+    border-radius: 1rem;
+    /* height: 10rem; */
+    cursor: pointer;
+}
+
+.home-plan .home-plan-cards .cards:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 2px  4px #0c0c0c;
+}
+
+.home-plan .home-plan-cards .cards:nth-child(2){
+    margin-bottom: 2.1rem;
+}
+
+.home-plan .home-plan-cards .cards h3 {
+    margin-top: .4rem;
+    font: 600 1.5rem 'Poppins';
+    text-align: center;
+}
+
+.home-plan .home-plan-cards .cards button {
+    color: #fff;
+    text-align: center;
+    font: 400 .9rem 'Poppins';
+    background-color: transparent;
+    border: .1rem solid #fff;
+    border-radius: 0.8rem;
+    
+    margin: .3rem 0.5rem;
+    width: 90%;
+}
+
+.home-plan .home-plan-cards .cards p:first-of-type { 
+    margin-top: 1rem;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    color: #C7C7C7;
+    font: 400 1rem 'Poppins';
+}
+
+.home-plan .home-plan-cards .cards p:last-of-type{
+    text-align: center;
+    color: #C7C7C7;
+    font: 500 .6rem 'Poppins';
+
+    margin-top: .3rem;
+    margin-bottom: .7rem;
+}
+
+.home-plan .home-plan-cards .cards .card-price {
+    font: 500 1.1rem 'Poppins';
+    margin-left: .5rem;
+}
+
+.home-plan .home-plan-cards .cards hr {
+    border: 1px solid #32014B;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    width: 9.7rem;
+}
+
+.home-plan button {
+    background: var(--color-destaque);
+    margin-top: rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    width: 10.5rem;
+    height: 2.3rem;
+
+    cursor: pointer;
+
+    color: #ffffff;
+
+    border-radius: 50px;
+
+}
+
+.home-plan .button-about:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 4px  10px #1f1f1f;
+}
+
+.home-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-footer table{
+    display: flex;
+    /* vertical-align: middle; */
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2rem;
+    
+}
+
+.home-footer table tr {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1rem;
+}
+
+.home-footer table tr td {
+    margin: 0rem 2rem;
+    
+    cursor: pointer;
+    font: 300 1.1rem 'Poppins';
+}
+
+.home-footer img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 12rem;
+}
+
+.home-footer .footer-rights{
+    cursor: pointer;
+    text-align: center;
+    font: 400 1.1rem 'Poppins';
+    color: var(--color-destaque);
+}
+
+@media(min-width: 660px) {
+    :root {
+        font-size: 100%;
+    }
+    .home-main{
+        background-image: url(../assets/background-home-purple.png);
+        background-size: cover;  
+    }
+
+    .home-about > h2{
+        font: 600 1.7rem 'Poppins';
+    }
+
+    .home-about > img {
+        width: 40rem;
+    }
+
+    .home-about > h3 {
+        font: 600 1.9rem 'Poppins';
+    }
+
+    .home-about > p {
+        padding: 0.5rem ;
+        margin-bottom: 2rem;
+    }
+
+    .home-plan .home-plan-cards .cards {
+        max-width: 15rem;
+        min-width: 10rem;
+        min-height: 17rem;
+        border-radius: 1rem;
+        /* height: 10rem; */
+    }
+
+    .home-footer img {
+        width: 16rem;
+    }
+
+    .home-footer .footer-rights{
+        font: 400 1.2rem 'Poppins';
+    }
+
+    .home-plan .home-plan-cards .cards hr {
+        width: 11.3rem;
+    }
+    
+
+}
+
+@media(min-width: 1024px) {
+
+    .home-main{
+        background-image: url(../assets/bg.png);
+        background-size: cover; 
+        width: 100%; 
+    }
+}
