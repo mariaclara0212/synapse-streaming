@@ -60,7 +60,7 @@
     font: 600 2rem 'Poppins';
 }
 
-.home-main > button {
+.home-main  button {
     margin-bottom: 3rem;
     background: var(--color-destaque);
     border: none;
