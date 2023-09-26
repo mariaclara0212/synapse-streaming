@@ -334,4 +334,17 @@
         background-size: cover; 
         width: 100%; 
     }
+
+    .home-main header button {
+        width: 10rem;
+        height: 2.3rem;
+    }
+
+    .home-main > img {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+        width: 30rem;
+        height: auto;
+        
+    }
 }
