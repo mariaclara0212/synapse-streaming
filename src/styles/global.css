@@ -29,6 +29,12 @@ body, input, button, textarea {
     font: 600 1.2rem 'Poppins'
 }
 
+a {
+    text-decoration: none;
+    font: 100 1.2rem 'Archivo';
+    color: #FFFFFF;
+}
+
 .container {
     width: 90%;
     max-width: 768px;
