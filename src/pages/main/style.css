@@ -37,7 +37,7 @@
     width: 100%;
     border-radius: 0 1.2rem 1.2rem 0;
 
-    top: 100px;
+    top: 0px;
     bottom: 0;
     left: -16rem;
     overflow-y: overlay;
@@ -52,6 +52,17 @@
     visibility: visible;
 }
    
+.sidebar-genres::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.sidebar-genres:is(:hover, :focus-within)::-webkit-scrollbar-thumb {
+    background-color: #868686;
+}
+
+.sidebar-genres::-webkit-scrollbar-button {
+    height: 16px;
+}
 
 
 .sidebar-genres-list{
@@ -67,13 +78,21 @@
 }
 
 
-
 .sidebar-genres-list h1 {
-    margin: 1.2rem 0;
-    
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
 }
 
 .sidebar-genres-list a {
-    flex: 2.6rem;
+    flex: 3rem;
     text-align: left;
+}
+
+.sidebar-link {
+    color: #9f9f9f;
+    transition: 0.2s;   
+}
+
+.sidebar-link:is(:hover, :focus-visible ) {
+    color: #ffffff;
 }
