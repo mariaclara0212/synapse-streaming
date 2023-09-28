@@ -10,17 +10,25 @@
 
     <script src="https://kit.fontawesome.com/026c12ae9e.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="../../../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 </head>
 <body>
     <div id="page-main">
         <div class="main-container" class="container">
             <header>
-                <i class="fa-solid fa-bars" style="color: #4f196c;"></i>
+                <button class="menu-btn " >
+                    <img src="../../assets/icons/menu-aberto.png" class="menu" alt="">   
+                    <img src="../../assets/icons/menu-close.png"  class="close" alt="">
+                </button>
+                
+                
                 <a href="./index.html"><img src="../../assets/logo-mobile.png" alt=""></a>
                 <i class="fa-solid fa-magnifying-glass" style="color: #4f196c;"></i>
             </header>
                
-            <nav class="sidebar-genres ">
+            <nav class="sidebar-genres">
                 <div class="sidebar-inner">
                     <div class="sidebar-genres-list">
                         <h1>Gêneros</h1>
@@ -46,8 +54,164 @@
                     </div>
                 </div>
             </nav>
+            <div class="overlay"></div>
+
+            <div class="trending-slider">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                      <ul class="glide__slides">
+                        <div class="glide__slide" class="btn">
+                            <div class="banner-info" >
+                                <h2 class="heading">Homem-Aranha: Através do Aranhaverso</h2>
+                                <p class="genre">Comédia, Aventura, Fantasia</p>
+        
+                                <div class="meta-list">
+                                    <div class="meta-item card-badge">97% match</div>
+                                    <div class="meta-item">2023</div>
+                                    <div class="meta-item hours">3h01</div>
+                                </div>
+        
+                                <div class="buttons">
+                                    <a href="../../components/details.html" class="btn"><button><img src="../../assets/icons/play-button-mobile.png" alt=""> Play</button></a>
+                                    <a href="" class="favorite"><button>+</button></a>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <img class="banner" src="../../assets/movies/oppenheimer.png" alt="">
+
+                        </div>
+
+                        <div class="glide__slide" class="btn">
+                            <div class="banner-info" >
+                                <h2 class="heading">Homem-Aranha: Através do Aranhaverso</h2>
+                                <p class="genre">Comédia, Aventura, Fantasia</p>
+        
+                                <div class="meta-list">
+                                    <div class="meta-item card-badge">97% match</div>
+                                    <div class="meta-item">2023</div>
+                                    <div class="meta-item hours">3h01</div>
+                                </div>
+        
+                                <div class="buttons">
+                                    <a href="" class="btn"><button><img src="../../assets/icons/play-button-mobile.png" alt=""> Play</button></a>
+                                    <a href="" class="favorite"><button>+</button></a>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <img class="banner" src="../../assets/movies/oppenheimer.png" alt="">
+
+                        </div>
+
+                        <div class="glide__slide" class="btn">
+                            <div class="banner-info" >
+                                <h2 class="heading">Homem-Aranha: Através do Aranhaverso</h2>
+                                <p class="genre">Comédia, Aventura, Fantasia</p>
+        
+                                <div class="meta-list">
+                                    <div class="meta-item card-badge">97% match</div>
+                                    <div class="meta-item">2023</div>
+                                    <div class="meta-item hours">3h01</div>
+                                </div>
+        
+                                <div class="buttons">
+                                    <a href="" class="btn"><button><img src="../../assets/icons/play-button-mobile.png" alt=""> Play</button></a>
+                                    <a href="" class="favorite"><button>+</button></a>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <img class="banner" src="../../assets/movies/oppenheimer.png" alt="">
+
+                        </div>
+                        
+                      </ul>
+                    </div>
+
+        
+
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                    </div>
+                    
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="movie-list">
+                <div class="title-wrapper">
+                    <h3>Trending movies</h3>
+                </div>
+
+                <div class="slides-movie">
+                    <div class="glide-movies">
+
+                        <div class="glide__arrows-slider" data-glide-el="controls">
+                            <button class="glide__arrow-slider glide__arrow--left" data-glide-dir="<">prev</button>
+                            <button class="glide__arrow-slider glide__arrow--right" data-glide-dir=">">next</button>
+                        </div>
+
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <div class="glide__slide" class="btn">
+                                    <img src="../../assets/movies/homem-aranha.png" alt="">
+                                </div>
+                                <div class="glide__slide" class="btn">
+                                    <img src="../../assets/movies/homem-aranha.png" alt="">
+                                </div>
+                                <div class="glide__slide" class="btn">
+                                    <img src="../../assets/movies/homem-aranha.png" alt="">
+                                </div>
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                    
+                
+
+                
+            </div>
             
         </div>
     </div>
 </body>
+
+<script src="../../../node_modules/@glidejs/glide/dist/glide.min.js"></script>
+<script>
+    new Glide('.glide').mount()
+
+    new Glide('.glide-movies', {
+        type: 'carousel',
+        perView: 4,
+        responsive: [
+            {
+            breakpoint: 700,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            },
+            },
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 5,
+            },
+            },
+        ], 
+    }).mount()
+</script>
 </html>
