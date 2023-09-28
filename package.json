@@ -1,0 +1,23 @@
+{
+  "name": "synapse-streaming",
+  "version": "1.0.0",
+  "description": "Início do projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaclara0212/synapse-streaming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariaclara0212/synapse-streaming/issues"
+  },
+  "homepage": "https://github.com/mariaclara0212/synapse-streaming#readme",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0"
+  }
+}
