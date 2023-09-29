@@ -107,6 +107,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    display: none;
 } 
 
 #register-page .register-container .plans-content .info-plan table {
@@ -117,9 +119,23 @@
 } 
 
 
+
 #register-page .register-container .plans-content .info-plan table td {
     padding: 0.8rem 0; 
-}  
+} 
+
+
+
+
+#register-page .info-payment {
+    max-width: 80%;
+}
+
+#register-page .info-payment .payment-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 @media (min-width: 1024px) {
 
